@@ -1,0 +1,122 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #007bff, #ffffff, #cccccc); /* Gradient background for body */
+}
+
+/* Container styles */
+.table-container {
+  padding: 20px;
+  background-color: transparent; /* Transparent container */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc; /* Light grey borders for cells */
+  padding: 12px; /* Increased padding for cells */
+  text-align: left;
+}
+
+table th {
+  background-color: #00bcd4; /* Blue background for th */
+  color: white; /* White text color for th */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+table tr:hover {
+  background-color: #ddd; /* Darker grey background for hover */
+}
+
+/* Input styles */
+input[type="text"] {
+  padding: 8px; /* Increased padding for inputs */
+  margin-right: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.add-btn {
+  padding: 12px 24px; /* Increased padding for buttons */
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn,
+.save-btn,
+.cancel-btn,
+.edit-btn,
+.delete-btn,
+.confirm-btn {
+  padding: 8px 16px; /* Increased padding for buttons */
+  margin-right: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: green;
+  color: white;
+}
+
+.save-btn {
+  background-color: blue;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: blue;
+  color: white;
+}
+
+.edit-btn {
+  background-color: blue;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.confirm-btn {
+  background-color: red;
+  color: white;
+}
+
+/* Modal styles */
+.delete-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-modal p {
+  color: white;
+}
+
+.delete-modal button {
+  margin: 0 4px;
+}
